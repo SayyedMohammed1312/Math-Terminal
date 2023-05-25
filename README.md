@@ -5,6 +5,33 @@ A new working Math Terminal built completely in node js
 - Nodejs Installed.
 - Windows OS 
 - or you can install cmd on different os to run in your desired os
+- Prompt-Sync package installed
+- Chalk Package Installed v4.1.2
+- @types/node
+- Bcrypt Package
+- Typescript Package Installed
+
+Run:
+```console
+ npm i -g prompt-sync
+```
+then run
+```console
+npm i -g chalk@4.1.2
+```
+then run
+```console
+npm i -g @types/node
+```
+then run
+```console
+npm i -g bcrypt
+```
+then run
+```console
+npm i -g typescript
+```
+And you are good to go
 
 ## Execution
 Run the test.bat file in test folder
