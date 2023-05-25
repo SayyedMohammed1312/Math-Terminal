@@ -1,0 +1,16 @@
+declare function __KM_To_Meters(KM: number): number;
+declare function __Meters_To_KM(Meters: number): number;
+declare function __Miles_To_KM(Miles: number): number;
+declare function __KM_To_Miles(KM: number): number;
+declare function __KM_To_Centimeters(KM: number): number;
+declare function __Centimeters_To_KM(Centimeters: number): number;
+declare function __Meters_To_Centimeters(Meters: number): number;
+declare function __Centimeters_To_Meters(Centimeters: number): number;
+declare function __Millimeters_To_Centimeters(Millimeters: number): number;
+declare function __Centimeters_To_Millimeters(Centimeters: number): number;
+declare function __Millimeters_To_Meters(Millimeters: number): number;
+declare function __Meters_To_Millimeters(Meters: number): number;
+declare function __Millimeters_To_Kilometers(Millimeters: number): number;
+declare function __Kilometers_To_Millimeters(Kilometers: number): number;
+declare function __distanceConverter(from: string, to: string, value: number, answerInNumber: true): any;
+export { __KM_To_Centimeters, __KM_To_Meters, __KM_To_Miles, __Kilometers_To_Millimeters, __Meters_To_Centimeters, __Meters_To_KM, __Meters_To_Millimeters, __Miles_To_KM, __Millimeters_To_Centimeters, __Millimeters_To_Kilometers, __Millimeters_To_Meters, __Centimeters_To_KM, __Centimeters_To_Meters, __Centimeters_To_Millimeters, __distanceConverter };
