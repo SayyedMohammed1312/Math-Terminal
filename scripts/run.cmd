@@ -1,0 +1,1 @@
+cls & npx tsc & node a.js

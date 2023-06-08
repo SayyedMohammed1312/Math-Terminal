@@ -1,0 +1,34 @@
+{
+  "name": "module-mathjs",
+  "version": "1.2.6",
+  "description": "Simple Functions for math. EXTENDS Math Object",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist",
+    "/src",
+    "/node_modules",
+    "/test",
+    "/cm.bat",
+    "/pb.bat"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ali Sayyed",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "input": "^1.0.1",
+    "password-hash": "^1.2.2",
+    "prompt-sync": "^4.2.0",
+    "terminal-kit": "^3.0.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.3"
+  }
+}
